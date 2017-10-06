@@ -3,8 +3,6 @@ def position_taken?(board, index)
   value = board[index]
   if value == " " || value == "" || value.nil?
     return false
-  elsif value.nil?
-    return false
   else
     return true
   end
